@@ -19,7 +19,7 @@ class LoginController extends CI_Controller
             redirect('HomeController/index');
         }
     }
-    public function vrifyUser()
+    public function verifyUser()
     {
      $name=$this->input->post('username'); 
      $password=$this->input->post('password');
